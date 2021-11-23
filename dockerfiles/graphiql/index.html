@@ -20,7 +20,7 @@
     ></script>
 
     <script>
-      const fetcher = GraphiQL.createFetcher({ url: 'http://localhost:3000/rpc/graphql' });
+      const fetcher = GraphiQL.createFetcher({ url: 'http://0.0.0.0:3000/rpc/graphql' });
 
       ReactDOM.render(
         React.createElement(GraphiQL, { fetcher: fetcher }),
